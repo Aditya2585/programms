@@ -1,0 +1,22 @@
+#include <stdio.h>
+main()
+{
+	printf("choose an item : \n1. idly \n2. dosa \n3. wada ");
+	int choose=0;
+	scanf("%d",&choose);
+	switch(choose)
+	{
+		case 1:
+			printf("you picked idly");
+			break;
+		case 2:
+		    printf("you picked dosa");
+		    break;
+		case 3:
+		    printf("you picked waDA");
+		    break;
+		default:
+		    printf("since i'm not too great with numbers other than 1,2,3. \n Plz enter any one of them ");		
+	}
+	
+}
